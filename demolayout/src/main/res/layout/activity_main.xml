@@ -10,7 +10,7 @@
     android:layout_height="match_parent"
     android:gravity="top|center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".RegistrationActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -27,6 +27,7 @@
         android:layout_height="wrap_content"
         android:text="SIGN UP"
         android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
         android:textSize="20dp"
         android:textColor="@color/colorAccent"/>
 
@@ -37,24 +38,30 @@
         android:text="First Name"
         android:layout_marginTop="30dp"
         android:textSize="20dp"
+        android:layout_marginLeft="10dp"
         android:textColor="@color/colorblack"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text=""
+        android:layout_marginVertical="15dp"
+        android:background="@drawable/signpage"
         android:layout_marginTop="10dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Last Name"
+        android:layout_marginLeft="10dp"
         android:textSize="20dp"
         android:layout_marginTop="30dp"
         android:textColor="@color/colorblack"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/signpage"
+        android:layout_marginVertical="15dp"
         android:text=""
         android:layout_marginTop="10dp" />
 
@@ -62,12 +69,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Email Address"
+        android:layout_marginLeft="10dp"
         android:textSize="20dp"
         android:layout_marginTop="30dp"
         android:textColor="@color/colorblack"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/signpage"
+        android:layout_marginVertical="15dp"
         android:text=""
         android:layout_marginTop="10dp"/>
 
@@ -76,11 +86,14 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:text="Password"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
         android:textColor="@color/colorblack"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/signpage"
+        android:layout_marginVertical="15dp"
         android:text=""
         android:layout_marginTop="10dp"/>
 
@@ -89,11 +102,14 @@
         android:layout_height="wrap_content"
         android:text="Confirm Password"
         android:textSize="20dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
         android:textColor="@color/colorblack"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/signpage"
+        android:layout_marginVertical="15dp"
         android:text=""
         android:layout_marginTop="10dp"/>
 
@@ -102,6 +118,8 @@
         android:layout_height="wrap_content"
         android:text="SUBMIT"
         android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
         android:layout_marginTop="30dp"/>
 
 

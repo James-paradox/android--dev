@@ -1,9 +1,11 @@
 <resources>
-   <!-- <string name="app_name">demoLAyout</string>
+    <string name="app_name">demoLAyout</string>
     <string name="first_name">First Name</string>
     <string name="middle_name">Middle Name</string>
     <string name="last_name">Last Name</string>
     <string name="dob">DOB</string>
     <string name="save">SAVE</string>
-    <string name="bookit">Book It</string>-->
+    <string name="bookit">Book It</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
 </resources>
