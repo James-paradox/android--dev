@@ -1,2 +1,2 @@
-include ':app', ':demolayout', ':recycler'
+include ':app', ':demolayout', ':recycler', ':retrofit'
 rootProject.name='Demo1'
